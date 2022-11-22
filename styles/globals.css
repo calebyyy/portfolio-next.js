@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,18 +9,18 @@
   }
 
   h1, h2, h3, h4, h5. h6 {
-    @apply font-bold
+    @apply font-bold font-sans
   }
 
   h1{
-    @apply text-4xl sm:text-5xl md:text-6xl
+    @apply text-3xl sm:text-4xl md:text-5xl font-sans
   }
 
   h2{
-    @apply text-3xl sm:text-4xl
+    @apply text-3xl sm:text-4xl font-sans
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white font-sans
   }
 }

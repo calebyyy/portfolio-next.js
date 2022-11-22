@@ -15,7 +15,7 @@ const Navbar = () => {
                  
     /> */}
                 <div>
-                    
+
                 </div>
                 <div>
                     <ul className='hidden md:flex'>
@@ -36,8 +36,27 @@ const Navbar = () => {
                         </Link>
                     </ul>
                     <div className='md:hidden'>
-                        <AiOutlineMenu />
+                        <AiOutlineMenu size={25} />
                     </div>
+                </div>
+
+            </div>
+            <div className='fixed left-0 top-0 w-full h-screen bg-white/1'>
+                <div className='fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-black p-10 ease-in duration 500'>
+                <div>
+                    <div className='flex w-full items-center justify-between'>
+                        
+                        <h1 className='text-white font-sans'> CALEB NG </h1>
+
+                        <div className='rounded-full border-2 border-white p-3 cursor-pointer hover:bg-gray-400'>
+                            <AiOutlineClose />
+                        </div>
+                        
+                    </div>
+                    <div className='border-b border-gray-300 my-4'>
+                        <p className='w-[85%]'>Improving lives, 1 line at a time</p>
+                    </div>
+                </div>
                 </div>
 
             </div>
