@@ -22,8 +22,22 @@ const Navbar = () => {
                  height='50'
                  
     /> */}
-                <div>
-                <h1 className='text-white font-sans'> CALEB NG </h1>
+                <div className='flex justify-between items-center space-x-3'>
+                            <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300 border-white border-2'>
+                               <FaLinkedinIn />
+                            </div>
+                            <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300 border-white border-2'>
+                               <FaGithub />
+                            </div>
+                            <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300 border-white border-2'>
+                               <AiOutlineMail />
+                            </div>
+                            <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300 border-white border-2'>
+                               <BsFillPersonLinesFill />
+                            </div>
+                        </div>
+                <div className='absolute left-1/2 invisible xl:visible'>
+                    <h3 className='font-bold'>Caleb Ng</h3>
                 </div>
                 <div>
                     <ul className='hidden md:flex'>
@@ -56,7 +70,7 @@ const Navbar = () => {
                 <div>
                     <div className='flex w-full items-center justify-between'>
                         
-                        <h1 className='text-white font-sans'> CALEB NG </h1>
+                        <h2 className='text-white font-sans'> Caleb Ng </h2>
 
                         <div onClick={handleNav} className='rounded-full border-2 border-white p-3 cursor-pointer hover:bg-gray-400'>
                             <AiOutlineClose />

@@ -7,8 +7,10 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      sans: ['Montserrat', 'sans-serif'],
-      heading:['Montserrat', 'sans-serif']
+      sans: ['Montserrat', 'sans-serif','Helvetica Neue'],
+      heading:['Montserrat', 'sans-serif','Helvetica Neue'],
+      mono:['Helvetica Neue']
+
     }
   },
   plugins: [],
