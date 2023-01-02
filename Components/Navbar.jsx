@@ -46,7 +46,7 @@ const Navbar = () => {
                             <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
                         </Link>
                         <Link href='/'>
-                            <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
+                            <li className='ml-10 text-sm uppercase hover:border-b'>Resume</li>
                         </Link>
                     </ul>
                     <div onClick={handleNav} className='md:hidden hover:border-b cursor-pointer'>
@@ -88,7 +88,7 @@ const Navbar = () => {
                         <li className='py-4 text-sm hover:border-b'>Projects</li>
                         </Link>
                         <Link href = '/'>
-                        <li className='py-4 text-sm hover:border-b'>Contact</li>
+                        <li className='py-4 text-sm hover:border-b'>Resume</li>
                         </Link>
                     </ul>
                     <div className='pt-40'>
