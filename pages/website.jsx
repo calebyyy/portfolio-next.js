@@ -41,7 +41,7 @@ const website = () => {
             This project really challenged me and is overall an experience I think everyone should try.
           </p>
           <a
-            href='https://github.com/calebyyy/pomodoro-lofi-timer'
+            href='https://github.com/calebyyy/portfolio-next.js'
             target='_blank'
             rel='noreferrer'
           >
