@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu}  from 'react-icons/ai';
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa';
@@ -23,21 +22,14 @@ const Navbar = () => {
                  
     /> */}
                 <div className='flex justify-between items-center space-x-3'>
-                            <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300 border-white border-2'>
-                               <FaLinkedinIn />
-                            </div>
-                            <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300 border-white border-2'>
-                               <FaGithub />
-                            </div>
-                            <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300 border-white border-2'>
-                               <AiOutlineMail />
-                            </div>
-                            <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300 border-white border-2'>
-                               <BsFillPersonLinesFill />
-                            </div>
+                <ul className='hidden md:flex'>
+                <Link href='/'>
+                <li className='ml-10 text-sm uppercase hover:border-b'>Caleb Ng</li>
+                </Link>
+                </ul>
                         </div>
                 <div className='absolute left-1/2 invisible xl:visible'>
-                    <h3 className='font-bold'>Caleb Ng</h3>
+                    <h3 className='font-bold'></h3>
                 </div>
                 <div>
                     <ul className='hidden md:flex'>
