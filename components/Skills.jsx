@@ -48,10 +48,7 @@ const Skills = () => {
             <div className='p-6 border-white border-2 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                <Image src='/../public/assets/skills/github3.png' 
-                width='64' 
-                height='64' 
-                alt='/' />
+                <img src="/assets/skills/github3.png" alt ="github" />
                 </div>
                 <div className='flex-col items-center justify-center'>
                     <h3>Github</h3>
@@ -63,10 +60,7 @@ const Skills = () => {
             <div className='p-6 border-white border-2 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                <Image src='/../public/assets/skills/javascript.png' 
-                width='64' 
-                height='64' 
-                alt='/' />
+                <img src="/assets/skills/javascript.png" alt ="javascript" />
                 </div>
                 <div className='flex-col items-center justify-center'>
                     <h3>Javascript</h3>
@@ -78,10 +72,7 @@ const Skills = () => {
             <div className='p-6 border-white border-2 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                <Image src='/../public/assets/skills/nextjs3.png' 
-                width='64' 
-                height='64' 
-                alt='/' />
+                <img src="/assets/skills/nextjs3.png" alt ="nextjs" />
                 </div>
                 <div className='flex-col items-center justify-center'>
                     <h3>Next.js</h3>
@@ -93,10 +84,7 @@ const Skills = () => {
             <div className='p-6 border-white border-2 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                <Image src='/../public/assets/skills/node.png' 
-                width='64' 
-                height='64' 
-                alt='/' />
+                <img src="/assets/skills/node.png" alt ="nodejs" />
                 </div>
                 <div className='flex-col items-center justify-center'>
                     <h3>Node.js</h3>
@@ -109,10 +97,7 @@ const Skills = () => {
             <div className='p-6 border-white border-2 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                <Image src='/../public/assets/skills/react.png' 
-                width='64' 
-                height='64' 
-                alt='/' />
+                <img src="/assets/skills/react.png" alt ="react" />
                 </div>
                 <div className='flex-col items-center justify-center'>
                     <h3>React</h3>
@@ -124,10 +109,7 @@ const Skills = () => {
             <div className='p-6 border-white border-2 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                <Image src='/../public/assets/skills/tailwind.png' 
-                width='64' 
-                height='64' 
-                alt='/' />
+                <img src="/assets/skills/tailwind.png" alt ="tailwind" />
                 </div>
                 <div className='flex-col items-center justify-center'>
                     <h3>Tailwind.css</h3>
@@ -139,10 +121,7 @@ const Skills = () => {
             <div className='p-6 border-white border-2 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                <Image src='/../public/assets/skills/ros2.png' 
-                width='64' 
-                height='64' 
-                alt='/' />
+                <img src="/assets/skills/ros2.png" alt ="ros2" />
                 </div>
                 <div className='flex-col items-center justify-center'>
                     <h3>Ros2</h3>
@@ -154,10 +133,7 @@ const Skills = () => {
             <div className='p-6 border-white border-2 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                <Image src='/../public/assets/skills/python.png' 
-                width='64' 
-                height='64' 
-                alt='/' />
+                <img src="/assets/skills/python.png" alt ="python" />
                 </div>
                 <div className='flex-col items-center justify-center'>
                     <h3>Python</h3>
@@ -170,10 +146,7 @@ const Skills = () => {
             <div className='p-6 border-white border-2 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                <Image src='/../public/assets/skills/git.png' 
-                width='64' 
-                height='64' 
-                alt='/' />
+                <img src="/assets/skills/git.png" alt ="git" />
                 </div>
                 <div className='flex-col items-center justify-center'>
                     <h3>git</h3>
