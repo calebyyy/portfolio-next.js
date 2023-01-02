@@ -193,7 +193,7 @@ const Skills = () => {
             <div className='p-6 border-white border-2 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                <Image src='/../public/assets/skills/css.png' 
+                <Image src='/../public/assets/css.png' 
                 width='64' 
                 height='64' 
                 alt='/' />
