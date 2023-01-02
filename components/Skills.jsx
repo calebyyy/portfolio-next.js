@@ -11,10 +11,8 @@ const Skills = () => {
             <div className='p-6 border-white border-2 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                <Image src='/../public/assets/skills/html.png' 
-                width='64' 
-                height='64' 
-                alt='/' />
+                <img src="/assets/skills/html.png" alt ="html" />
+                
                 </div>
                 <div className='flex-col items-center justify-center'>
                     <h3>HTML</h3>
@@ -26,10 +24,7 @@ const Skills = () => {
             <div className='p-6 border-white border-2 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                <Image src='/../public/assets/skills/mongo.png' 
-                width='64' 
-                height='64' 
-                alt='/' />
+                <img src="/assets/skills/mongo.png" alt ="mongo" />
                 </div>
                 <div className='flex-col items-center justify-center'>
                     <h3>Mongo</h3>
@@ -41,10 +36,7 @@ const Skills = () => {
             <div className='p-6 border-white border-2 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                <Image src='/../public/assets/skills/docker.png' 
-                width='64' 
-                height='64' 
-                alt='/' />
+                <img src="/assets/skills/docker.png" alt ="docker" />
                 </div>
                 <div className='flex-col items-center justify-center'>
                     <h3>Docker</h3>
@@ -193,10 +185,7 @@ const Skills = () => {
             <div className='p-6 border-white border-2 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                <Image src='/../public/assets/css.png' 
-                width='64' 
-                height='64' 
-                alt='/' />
+                <img src="/assets/css.png" alt ="css" />
                 </div>
                 <div className='flex-col items-center justify-center'>
                     <h3>CSS</h3>
