@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Main from '../Components/Main'
-import About from '../components/about'
+import About from '../components/About'
 import Skills from '../Components/Skills'
 import Projects from '../Components/Projects'
  
