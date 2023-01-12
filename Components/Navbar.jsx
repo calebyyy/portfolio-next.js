@@ -56,11 +56,11 @@ const Navbar = () => {
                         <Link href='/#about'>
                             <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
                         </Link>
-                        <Link href='/#skills'>
-                            <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
-                        </Link>
                         <Link href='/#projects'>
                             <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
+                        </Link>
+                        <Link href='/#skills'>
+                            <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
                         </Link>
                         <Link href='https://drive.google.com/file/d/19cddScWlvrufQGMtqTCpzgpdKDfch71N/view?usp=sharing'>
                             <li className='ml-10 text-sm uppercase hover:border-b'>Resume</li>
@@ -100,11 +100,11 @@ const Navbar = () => {
                         <Link href = '/#about'>
                         <li onClick={()=> setNav(false)} className='py-4 text-sm hover:border-b'>About</li>
                         </Link>
-                        <Link href = '/#skills'>
-                        <li onClick={()=> setNav(false)} className='py-4 text-sm hover:border-b'>Skills</li>
-                        </Link>
                         <Link href = '/#projects'>
                         <li onClick={()=> setNav(false)} className='py-4 text-sm hover:border-b'>Projects</li>
+                        </Link>
+                        <Link href = '/#skills'>
+                        <li onClick={()=> setNav(false)} className='py-4 text-sm hover:border-b'>Skills</li>
                         </Link>
                         <Link href = 'https://drive.google.com/file/d/19cddScWlvrufQGMtqTCpzgpdKDfch71N/view?usp=sharing'>
                         <li onClick={()=> setNav(false)} className='py-4 text-sm hover:border-b'>Resume</li>
