@@ -6,12 +6,11 @@ const Skills = () => {
     <div id='skills' className='w-full lg:h-screen p-2'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
             <p className='text-xl tracking-widest uppercase text-[yellow]'>Skills</p>
-            <div className='py-6 grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
-
+            <div className='py-6 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 sm:grid-cols-3 gap-8'>
             <div className='p-6 border-white border-2 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                <img src="/assets/skills/html.png" alt ="html" />
+                <img src="/assets/skills/html.png" alt ="html"/>
                 
                 </div>
                 <div className='flex-col items-center justify-center'>
@@ -20,7 +19,6 @@ const Skills = () => {
                 
             </div>
             </div>
-
             <div className='p-6 border-white border-2 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
