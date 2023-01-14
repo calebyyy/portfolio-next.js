@@ -110,7 +110,7 @@ const Skills = () => {
                 <img src="/assets/skills/tailwind.png" alt ="tailwind" />
                 </div>
                 <div className='flex-col items-center justify-center'>
-                    <h3>Tailwind.css</h3>
+                    <h3>Tailwind</h3>
                 </div>
                 
             </div>
