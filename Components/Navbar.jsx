@@ -62,9 +62,11 @@ const Navbar = () => {
                         <Link href='/#skills'>
                             <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
                         </Link>
-                        <Link href='https://drive.google.com/file/d/19cddScWlvrufQGMtqTCpzgpdKDfch71N/view?usp=sharing'>
+                        {/* <Link href='https://drive.google.com/file/d/19cddScWlvrufQGMtqTCpzgpdKDfch71N/view?usp=sharing'> */}
+                        <a href="/assets/Caleb_Ng_Resume.pdf" download="Caleb_Ng_Resume.pdf">
                             <li className='ml-10 text-sm uppercase hover:border-b'>Resume</li>
-                        </Link>
+                        </a>
+                        {/* </Link> */}
                     </ul>
                     <div onClick={handleNav} className='md:hidden hover:border-b cursor-pointer'>
                         <AiOutlineMenu size={25} />
@@ -106,9 +108,10 @@ const Navbar = () => {
                         <Link href = '/#skills'>
                         <li onClick={()=> setNav(false)} className='py-4 text-sm hover:border-b'>Skills</li>
                         </Link>
-                        <Link href = 'https://drive.google.com/file/d/19cddScWlvrufQGMtqTCpzgpdKDfch71N/view?usp=sharing'>
+                        {/* <Link href = 'https://drive.google.com/file/d/19cddScWlvrufQGMtqTCpzgpdKDfch71N/view?usp=sharing'> */}
+                        <a href="/assets/Caleb_Ng_Resume.pdf" download>
                         <li onClick={()=> setNav(false)} className='py-4 text-sm hover:border-b'>Resume</li>
-                        </Link>
+                        </a>
                     </ul>
                     <div className='pt-40'>
                         <p className='uppercase tracking-widest'>Let's Connect</p>
