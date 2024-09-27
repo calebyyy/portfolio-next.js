@@ -13,9 +13,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <Main />
-    <About />
+    {/* <About />
     <Projects />
-    <Skills />
+    <Skills /> */}
       
     </div>
   )
